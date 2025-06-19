@@ -1,5 +1,5 @@
 import React from 'react';
-import './HeroSection.css';
+import './Herosection.css';
 import { motion } from 'framer-motion';
 
 const steps = [
