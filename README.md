@@ -6,7 +6,7 @@ This is my submission for the DMI.ai Frontend Developer Hiring Challenge (Round 
 
 ## ✨ Live Demo
 
-🔗 [View Deployed Site](lovable-clone-lf9g-git-main-nameisjaats-projects.vercel.app)  
+🔗 [View Deployed Site](https://lovable-clone-lf9g.vercel.app)  
 🔗 [GitHub Repository](https://github.com/nameisjaat/Lovable_clone)
 
 ---
