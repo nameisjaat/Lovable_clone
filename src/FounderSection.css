@@ -1,0 +1,152 @@
+.founder-section {
+  background: #fff;
+  padding: 80px 20px;
+}
+
+.founder-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* === LEFT SIDE === */
+.founder-image-wrapper {
+  position: relative;
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.founder-image {
+  width: 100%;
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+/* Badges */
+.badge {
+  position: absolute;
+  background: white;
+  color: #111;
+  font-weight: 600;
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.badge span {
+  display: block;
+  font-weight: 400;
+  color: #666;
+  font-size: 0.75rem;
+}
+
+.badge-top-left {
+  top: -12px;
+  left: -12px;
+  color: red;
+}
+
+.badge-top-right {
+  top: 16px;
+  right: 16px;
+  font-size: 0.85rem;
+  background: #f2f4f7;
+  color: #333;
+}
+
+.badge-bottom-right {
+  bottom: -16px;
+  right: -12px;
+  color: red;
+}
+
+/* === RIGHT SIDE === */
+.founder-content {
+  flex: 2;
+  min-width: 300px;
+}
+
+.founder-name {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.founder-title {
+  color: red;
+  font-weight: 600;
+  margin: 8px 0 16px;
+}
+
+.founder-bio {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Stats */
+.founder-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  background: #f9fafc;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: left;
+}
+
+.stat-value {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 6px;
+}
+
+.stat-label {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.stat-label span {
+  display: block;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+/* Quote */
+.founder-quote {
+  background: #fff0f0;
+  border-left: 4px solid red;
+  padding: 20px;
+  border-radius: 12px;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: #222;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .founder-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .founder-image-wrapper {
+    max-width: 90%;
+  }
+
+  .founder-stats {
+    grid-template-columns: 1fr;
+  }
+}
